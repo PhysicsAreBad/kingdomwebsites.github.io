@@ -13,7 +13,7 @@
 body {
 	background-color: #57dd4d;
 }
-table, th, td {
+table {
     text-align: center;
     padding-left: 25%;
 }
