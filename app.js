@@ -3,6 +3,6 @@ $(document).ready(() => {
 	let $kingdomListHead = $('#kingdom-list-header');
 	$kingdomList.hide();
 	$kingdomListHead.on('click', () => {
-		$kingdomList.slideToggle();
+		$kingdomList.fadeToggle();
 	})
 })
