@@ -1,0 +1,22 @@
+* { 
+	background-color: #000000;
+	color: #00FFFF;
+	text-align: center;
+	margin: auto;
+	font-family: 'Indie Flower', cursive;
+ }
+ a {
+ 	text-decoration: none;
+ }
+ #description {
+ 	padding-left: 10%;
+ 	padding-right: 10%;
+ 	padding-top: 5%;
+ 	padding-bottom: 3%;
+ }
+ #history {
+ 	margin-bottom: 30px;
+ }
+ #bio {
+ 	margin-bottom: 30px;
+ }

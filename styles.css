@@ -1,0 +1,16 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#kingdom-list {
+	border-style: solid;
+	display: inline;
+	border-width: 1px;
+	padding-left: 12%;
+	padding-right:12%;
+	align-content: center;
+}
