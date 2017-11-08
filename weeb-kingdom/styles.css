@@ -17,6 +17,29 @@
  #history {
  	margin-bottom: 30px;
  }
- #bio {
+ .bio {
  	margin-bottom: 30px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
  }
+ #page-list-button {
+ 	margin: 20px;
+ }
+ #page-list {
+ 	display: inline;
+ }
+ .laws {
+ 	margin-bottom: 30px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ }
+.history {
+	margin-bottom: 30px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+}
+.main {
+	margin-bottom: 30px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+}
