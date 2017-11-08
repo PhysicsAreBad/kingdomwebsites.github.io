@@ -14,9 +14,11 @@ $(document).ready(() => {
 	$bio.hide();
 	$laws.hide();
 	$pageList.hide();
+	console.log("Ready");
 
 	$pageButton.on('click', () => {
 		$pageList.fadeToggle();
+		console.log("Open page switcher");
 	})
 	$lawsLink.on('click', () => {
 		$pageList.hide();
@@ -24,6 +26,7 @@ $(document).ready(() => {
 		$bio.fadeOut();
 		$history.fadeOut();
 		setTimeout(function(){$laws.fadeIn();}, 408);
+		console.log("Open laws page")
 	})
 	$mainLink.on('click', () => {
 		$pageList.hide();
@@ -31,6 +34,7 @@ $(document).ready(() => {
 		$history.fadeOut();
 		$laws.fadeOut();
 		setTimeout(function(){$main.fadeIn();}, 408);
+		console.log("Open main page");
 	})
 	$historyLink.on('click', () => {
 		$pageList.hide();
@@ -38,22 +42,14 @@ $(document).ready(() => {
 		$bio.fadeOut();
 		$laws.fadeOut();
 		setTimeout(function(){$history.fadeIn();}, 408);
+		console.log("Open history page");
 	})
 	$cbLink.on('click', () => {
 		$pageList.hide();
 		$main.fadeOut();
 		$history.fadeOut();
 		$laws.fadeOut();
-		setTimeout(function(){$bio.fadeIn();}, 408);})
+		setTimeout(function(){$bio.fadeIn();}, 408);
+		console.log("Open charicter bio");
+	})
 })
-$('img').each(function() {
-    var deg = $(this).data('rotate') || 0;
-    var rotate = 'rotate(' + deg + 'deg)';
-    $(this).css({ 
-        '-webkit-transform': rotate,
-        '-moz-transform': rotate,
-        '-o-transform': rotate,
-        '-ms-transform': rotate,
-        'transform': rotate 
-    });
-});
