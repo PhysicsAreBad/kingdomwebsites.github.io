@@ -61,5 +61,5 @@ $(document).ready(() => {
  +        '-o-transform': rotate,
  +        '-ms-transform': rotate,
  +        'transform': rotate 
- +    });
+ +    })
 })
