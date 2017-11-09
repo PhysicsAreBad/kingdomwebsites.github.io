@@ -25,7 +25,7 @@
 		$main.fadeOut();
 		$bio.fadeOut();
 		$history.fadeOut();
-		setTimeout(function(){$laws.fadeIn();}, 408);
+		setTimeout(function(){$laws.fadeIn();}, 402);
 		console.log("Open laws page")
 	})
 	$mainLink.on('click', () => {
@@ -33,7 +33,7 @@
 		$bio.fadeOut();
 		$history.fadeOut();
 		$laws.fadeOut();
-		setTimeout(function(){$main.fadeIn();}, 408);
+		setTimeout(function(){$main.fadeIn();}, 402);
 		console.log("Open main page");
 	})
 	$historyLink.on('click', () => {
@@ -41,7 +41,7 @@
 		$main.fadeOut();
 		$bio.fadeOut();
 		$laws.fadeOut();
-		setTimeout(function(){$history.fadeIn();}, 408);
+		setTimeout(function(){$history.fadeIn();}, 402);
 		console.log("Open history page");
 	})
 	$cbLink.on('click', () => {
@@ -49,7 +49,7 @@
 		$main.fadeOut();
 		$history.fadeOut();
 		$laws.fadeOut();
-		setTimeout(function(){$bio.fadeIn();}, 408);
+		setTimeout(function(){$bio.fadeIn();}, 402);
 		console.log("Open charicter bio");
 	})
 
