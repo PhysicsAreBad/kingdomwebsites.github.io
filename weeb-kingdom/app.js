@@ -1,5 +1,4 @@
-$(document).ready(() => {
-	var $pageButton = $('#page-list-button');
+        var $pageButton = $('#page-list-button');
 	var $pageList = $('#page-list');
 	var $main = $('.main');
 	var $history = $('.history');
@@ -16,6 +15,7 @@ $(document).ready(() => {
 	$pageList.hide();
 	console.log("Ready");
 
+        $(document).ready(() => {
 	$pageButton.on('click', () => {
 		$pageList.fadeToggle();
 		console.log("Open page switcher");
