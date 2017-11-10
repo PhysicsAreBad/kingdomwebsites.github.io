@@ -8,15 +8,9 @@
  a {
  	text-decoration: none;
  }
- #description {
+ .description {
  	padding-left: 10%;
  	padding-right: 10%;
  	padding-top: 5%;
  	padding-bottom: 3%;
- }
- #history {
- 	margin-bottom: 30px;
- }
- #bio {
- 	margin-bottom: 30px;
  }

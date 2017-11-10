@@ -1,21 +1,21 @@
-        var $pageButton = $('#page-list-button');
-	var $pageList = $('#page-list');
-	var $main = $('.main');
-	var $history = $('.history');
-	var $bio = $('.bio');
-	var $laws = $('.laws');
-	var $cbLink = $('#cb-link');
-	var $historyLink = $('#history-link');
-	var $lawsLink = $('#laws-link');
-	var $mainLink = $('#main-link')
+let $pageButton = $('#page-list-button');
+let $pageList = $('#page-list');
+let $main = $('.main');
+let $history = $('.history');
+let $bio = $('.bio');
+let $laws = $('.laws');
+let $cbLink = $('#cb-link');
+let $historyLink = $('#history-link');
+let $lawsLink = $('#laws-link');
+let $mainLink = $('#main-link')
 
-	$history.hide();
-	$bio.hide();
-	$laws.hide();
-	$pageList.hide();
-	console.log("Ready");
+$history.hide();	
+$bio.hide();
+$laws.hide();
+$pageList.hide();
+console.log("Ready");
 
-        $(document).ready(() => {
+$(document).ready(() => {
 	$pageButton.on('click', () => {
 		$pageList.fadeToggle();
 		console.log("Open page switcher");
