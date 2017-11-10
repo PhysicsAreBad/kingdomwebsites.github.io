@@ -1,0 +1,17 @@
+* { 
+	background-color: #d1ffe4;
+	color: #5a7063;
+	text-align: center;
+	margin: auto;
+	font-family: 'Baloo Bhaijaan', cursive;
+ }
+ a {
+ 	text-decoration: none;
+ }
+ .description {
+ 	padding-left: 10%;
+ 	padding-right: 10%;
+ 	padding-top: 5%;
+ 	padding-bottom: 3%;
+ 	margin: auto;
+ }
